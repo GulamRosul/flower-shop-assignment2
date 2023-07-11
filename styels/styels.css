@@ -3,6 +3,10 @@
     align-items: center;
     justify-content: space-around;
 }
+
+.banner p{
+    color:color: rgba(39, 39, 39, 0.60)
+}
 .banner .profile-pic{
     width: 500px;
 }
@@ -23,19 +27,16 @@ header{
     
 } 
 
-.banner2{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
 /* .banner-2 */
 
 .banner-2{
-display: flex;
-justify-content: space-around;
-align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(236, 223, 223);
+    padding: 0px 200px;
 }
+
 .banner-2 .profile-pic{
     margin: 130px;
     width: 200px; 
@@ -43,12 +44,17 @@ align-items: center;
   
 
 }
-
-  nav{
-    margin-top: 100px;
-    background:  #ede6e8 .10%;
-  }
-
+.instagram-images{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+}
+.instagram-images img{
+    width: 250px;
+}
 .red-city{
     text-align: center;
     margin-top: 50px;
@@ -60,19 +66,26 @@ align-items: center;
     
 }
 .shopping{
+    background-image: url('../Flower Asset/Rectangle9.png');
     margin-top: 70px;
-  height: 40vh;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 73%;
+    margin: 100px 198px 100px;
 }
 
 .btn-secandry{
     color: #E55473;
 }
+/* .flower-shop */
 
 .flower-shop{
-    background-color: black;
-    height: 300px;
-    
+    padding: 100px;
 }
+
+
 .btn-third{
     color: white;
 }
@@ -82,4 +95,31 @@ align-items: center;
 .btn-fiveth{
     color: white;
     font-size: small;
+}
+
+
+.benefits{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    padding: 100px;
+    width: 70%; 
+    margin: 100px 120px 90px;
+    margin-top: 80px;
+    text-align: center;
+
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(31, 21, 21);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+input{
+    padding:14px 180px 12px 23px;
+    border: none;
 }
